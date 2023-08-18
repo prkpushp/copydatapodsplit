@@ -8,6 +8,7 @@ $sourcePath = "C:\Source"
 $destinationPath = "C:\Destination"
 $timestamp = Get-Date -Format "yyyyMMddHHmmss"
 $logfilepath = "C:\Robocopy_Logfile_$timestamp"
+$folder
 
 # Options
 $copyOptions = "/E /log:$logFilePath"
